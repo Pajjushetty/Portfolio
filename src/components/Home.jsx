@@ -1,5 +1,6 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
+import ProfilePic from '../assets/Profilepic.jpg';
 
 const Home = () => {
   return (
@@ -10,6 +11,8 @@ const Home = () => {
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
           Prajwal Shetty
         </h1>
+
+
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
           I'm a Full Stack Developer.
         </h2>
@@ -26,6 +29,14 @@ const Home = () => {
             </span>
           </button>
         </div>
+        <div className=' absolute top-50 right-10  mr-12 mb-12  lg:mr-0 lg:w-1/'>
+          <img
+            src={ProfilePic}
+            alt='Profile'
+            className='rounded-full w-60 h-60 object-cover float-right'
+          />
+        </div>
+
       </div>
     </div>
   );
