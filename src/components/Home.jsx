@@ -33,10 +33,9 @@ const Home = () => {
           <img
             src={ProfilePic}
             alt='Profile'
-            className='rounded-full w-60 h-60 object-cover float-right'
+            className='rounded-full w-80 h-80 object-cover float-right'
           />
         </div>
-
       </div>
     </div>
   );
