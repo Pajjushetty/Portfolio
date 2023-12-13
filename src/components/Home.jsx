@@ -29,6 +29,14 @@ const Home = () => {
             </span>
           </button>
         </div>
+        <div className='lg:hidden absolute top-60 right-2'> {/* Show only on small screens */}
+          <img
+            src={ProfilePic}
+            alt='Profile'
+            className='rounded-full w-40 h-40 object-cover mx-auto my-4'
+          />
+        </div>
+
         <div className='hidden lg:block absolute top-1/2 right-10 mr-12 mb-12 lg:mr-0 lg:w-1/2 transform -translate-y-1/3'>
           <img
             src={ProfilePic}
@@ -36,6 +44,7 @@ const Home = () => {
             className='rounded-full w-80 h-80 object-cover float-right'
           />
         </div>
+
 
 
       </div>
